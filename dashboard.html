@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="loadUser(); loadBookings(); checkLogin();">
+
+<header class="navbar">
+  <h1 class="logo">Holidae</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="packages.html">Packages</a>
+  </nav>
+</header>
+
+<section class="dashboard">
+  <h2 id="userData"></h2>
+
+  <h3>Your Bookings</h3>
+  <ul id="bookingList"></ul>
+
+  <button onclick="logout()">Logout</button>
+</section>
+
+<footer>© 2026 Holidae</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

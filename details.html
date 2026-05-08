@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Details</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="checkLogin()">
+
+<header class="navbar">
+  <h1 class="logo">Holidae</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="packages.html">Packages</a>
+    <a href="details.html">Details</a>
+    <a id="auth-link" href="login.html">Login</a>
+    <a id="dashboard-link" href="dashboard.html">Dashboard</a>
+  </nav>
+</header>
+
+<!-- MALDIVES -->
+<section class="details-box">
+  <h2 onclick="toggleInfo('maldives')">Maldives ▼</h2>
+  <div id="maldives" class="hidden-info">
+    <p>
+      The Maldives is a luxurious tropical destination known for its crystal-clear waters,
+      white sandy beaches, and overwater villas. It offers a peaceful escape and is ideal
+      for relaxation, honeymoons, and premium vacations.
+    </p>
+    <p>
+      This package includes a 5-night stay in a beach villa resort with all meals, private
+      beach access, and exciting water activities like snorkeling and diving.
+    </p>
+    <button onclick="bookNow('Maldives')">Book Now</button>
+  </div>
+</section>
+
+<!-- DUBAI -->
+<section class="details-box">
+  <h2 onclick="toggleInfo('dubai')">Dubai ▼</h2>
+  <div id="dubai" class="hidden-info">
+    <p>
+      Dubai is a modern city famous for its futuristic skyline, luxury lifestyle,
+      and cultural experiences. From Burj Khalifa to desert safaris, it offers
+      a mix of adventure and comfort.
+    </p>
+    <p>
+      This package includes a 4-night stay, desert safari, city tours,
+      and visits to major attractions like Dubai Mall and Burj Khalifa.
+    </p>
+    <button onclick="bookNow('Dubai')">Book Now</button>
+  </div>
+</section>
+
+<!-- PARIS -->
+<section class="details-box">
+  <h2 onclick="toggleInfo('paris')">Paris ▼</h2>
+  <div id="paris" class="hidden-info">
+    <p>
+      Paris is known as the City of Love and is famous for its romantic atmosphere,
+      art, fashion, and iconic landmarks such as the Eiffel Tower.
+    </p>
+    <p>
+      This package includes a 5-night stay, guided tours, and a Seine river cruise,
+      offering a perfect mix of history and modern charm.
+    </p>
+    <button onclick="bookNow('Paris')">Book Now</button>
+  </div>
+</section>
+
+<!-- BALI -->
+<section class="details-box">
+  <h2 onclick="toggleInfo('bali')">Bali ▼</h2>
+  <div id="bali" class="hidden-info">
+    <p>
+      Bali is a tropical paradise known for its beaches, temples, and natural beauty.
+      It is perfect for relaxation as well as adventure activities.
+    </p>
+    <p>
+      This package includes a 5-night resort stay, temple tours, beach activities,
+      and local cultural experiences.
+    </p>
+    <button onclick="bookNow('Bali')">Book Now</button>
+  </div>
+</section>
+
+<!-- SWITZERLAND -->
+<section class="details-box">
+  <h2 onclick="toggleInfo('switzerland')">Switzerland ▼</h2>
+  <div id="switzerland" class="hidden-info">
+    <p>
+      Switzerland is known for its breathtaking mountain landscapes, scenic lakes,
+      and peaceful environment. It is one of the best destinations for nature lovers
+      and those seeking a calm and refreshing holiday.
+    </p>
+    <p>
+      This package includes a 6-night stay, mountain excursions, train journeys
+      through the Alps, and guided city tours of Zurich and Lucerne.
+    </p>
+    <button onclick="bookNow('Switzerland')">Book Now</button>
+  </div>
+</section>
+
+<!-- THAILAND -->
+<section class="details-box">
+  <h2 onclick="toggleInfo('thailand')">Thailand ▼</h2>
+  <div id="thailand" class="hidden-info">
+    <p>
+      Thailand is a vibrant destination known for its beaches, nightlife, and
+      cultural heritage. It offers a mix of relaxation, adventure, and entertainment.
+    </p>
+    <p>
+      This package includes a 5-night stay, island tours, beach activities,
+      and visits to famous locations like Phuket and Bangkok.
+    </p>
+    <button onclick="bookNow('Thailand')">Book Now</button>
+  </div>
+</section>
+
+<footer>© 2026 Holidae</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
